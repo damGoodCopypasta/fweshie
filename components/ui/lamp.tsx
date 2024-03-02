@@ -71,7 +71,7 @@ export const LampContainer = ({
           <div className="absolute  w-40 h-[100%] left-0 bg-slate-950  bottom-0 z-20 [mask-image:linear-gradient(to_right,white,transparent)]" />
         </motion.div>
         <motion.div
-          initial={{ opacity: 0.5, width: "15rem" }}
+          initial={{ opacity: 0.5, width: "10rem" }}
           whileInView={{ opacity: 1, width: "20rem" }}
           transition={{
             delay: 0.5,
