@@ -22,9 +22,18 @@ export function LandingLamp() {
         <h1 className="tracking-wider text-7xl md:text-9xl font-bold text-center relative z-20 bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">
           fweshie
         </h1>
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-white relative z-20">
+        <motion.h2
+          initial={{ opacity: 0, y: 16, scale: 1.2 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{
+            delay: 2,
+            duration: 1,
+            ease: "easeInOut",
+          }}
+          className="text-2xl md:text-4xl font-bold text-center text-white relative z-20"
+        >
           Coming soon
-        </h2>
+        </motion.h2>
       </motion.div>
     </LampContainer>
   );
