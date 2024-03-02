@@ -19,8 +19,8 @@ export function LandingLamp() {
         <span className="text-2xl md:text-4xl font-bold text-center text-white relative z-20">
           Are you ready to feel
         </span>
-        <h1 className="text-7xl md:text-9xl font-bold text-center relative z-20 bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">
-          Fweshie
+        <h1 className="tracking-wider text-7xl md:text-9xl font-bold text-center relative z-20 bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.400),theme(colors.indigo.100),theme(colors.sky.400),theme(colors.fuchsia.400),theme(colors.sky.400),theme(colors.indigo.100),theme(colors.indigo.400))] bg-[length:200%_auto] animate-gradient">
+          fweshie
         </h1>
         <h2 className="text-2xl md:text-4xl font-bold text-center text-white relative z-20">
           Coming soon
